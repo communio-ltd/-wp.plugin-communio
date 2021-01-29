@@ -1,0 +1,383 @@
+
+ /*
+
+div.wpmudev-chat-box .wpmudev-chat-module:last-child {
+ 	margin-bottom: 0px !important;
+ }
+ #wpmudev-chat-box-post-5253 div.wpmudev-chat-module-messages-list {
+ 	background: #f1f1f1;
+ 	background-color: #f1f1f1;
+ }
+ 
+ .bubble-chat .entry-meta .avatar {
+ 	float: right;
+ 	right: 0;
+ 	max-height: 30px !important;
+ 	max-width: 30px !important;
+ 	top: 0;
+ 	position: fixed;
+ }
+ .bubble-chat.item .entry-meta .avatar {
+ 	max-height: 34px !important;
+ 	max-width: 34px !important;
+ 	position: relative;
+ }
+ 
+
+ 
+
+div.wpmudev-chat-box div.wpmudev-chat-module-messages-list {
+    background: inherit !important;
+}
+ .wpmudev-chat-box-private {
+ 	display: none!important
+ }
+ .wpmudev-chat-admin-actions-item-delete, .wpmudev-chat-module-header, .wpmudev-chat-send-meta {
+ 	display: none
+ }
+ .wpmudev-chat-box {
+ 	border: none!important;
+ 	background: 0 0!important;
+ 	height: inherit !important;
+ }
+ .wpmudev-chat-row {
+ 	background-color: #EFEFEF!important;
+ 	border-top: 1px solid #CCC!important;
+ 	border-left: 0!important;
+ 	border-right: 0!important;
+ 	margin-bottom: 0!important;
+ 	border-bottom: 0px solid rgba(204, 204, 204, 0.34)!important;
+ }
+ textarea.wpmudev-chat-send {
+ 	float: left!important;
+ 	border: 1px solid #CCC!important;
+ 	padding: 0!important;
+ 	color: #000!important;
+ 	width: 100%!important
+ }
+ .wpmudev-chat-module-messages-list {
+ 	height: calc(100vh - 110px) !important;
+ 	padding-bottom: 50px !important;
+ 	background-color: #EFEFEF !important;
+ }
+ .wpmudev-chat-admin-actions-item {
+ 	display: none !important;
+ }
+ #respond .submit {
+ 	display: none;
+ }
+
+
+#wpmudev-chat-box-page-10621 div.wpmudev-chat-module-messages-list div.wpmudev-chat-row a.wpmudev-chat-user-avatar,
+#wpmudev-chat-box-page-10621 div.wpmudev-chat-module-messages-list div.wpmudev-chat-row a.wpmudev-chat-user-avatar img{width:25px !important; height:25px !important;}
+
+div.wpmudev-chat-box img {
+    margin-top: -4px !important;
+}
+
+div.wpmudev-chat-box p{font-size: 0.9em !important; }
+
+div.wpmudev-chat-box div.wpmudev-chat-module-messages-list div.wpmudev-chat-row-moderator a.wpmudev-chat-user-avatar{margin-bottom: 0px !important; background:none !important;}
+
+div.wpmudev-chat-box div.wpmudev-chat-module-message-area textarea.wpmudev-chat-send{font:inherit !important; }
+
+ .wpmudev-chat-send-button {
+ 	display: inline-block;
+    border: 0;
+
+    height: 50px;
+
+    margin: 0;
+    right: 0;
+    line-height: 40px;
+    font-size: .8em;
+    padding: 6px;
+
+
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out;
+    -ms-transition: background .5s ease-out;
+    transition: background .5s ease-out;
+    top: 0px;
+ }
+ .comment-form-comment label, .wpmudev-chat-send-button {
+ 	position: absolute;
+ }
+ .wpmudev-chat-send-button {
+ 	bottom: 0px;
+    font-weight: bold;
+    font-size: .8rem;
+    right: 0px;
+    margin-right: 0px;
+    margin: 0;
+    letter-spacing: .7px;
+
+	 
+ }
+ div.wpmudev-chat-box div.wpmudev-chat-module-messages-list div.wpmudev-chat-row a.wpmudev-chat-user-avatar {
+ margin: 0;
+	  margin-left: 0 !important;
+ }
+ div.wpmudev-chat-box.wpmudev-chat-session-open div.wpmudev-chat-module-message-area {
+	 width: 100% !important;
+	 bottom: 0px;
+ 	max-height: 50px;
+	 z-index: 9;
+ 	margin-bottom: 0px !important;
+ 	border-radius: 0px;
+ }
+
+
+@media only screen and (min-width: 1400px) {
+	
+	 div.wpmudev-chat-box.wpmudev-chat-session-open div.wpmudev-chat-module-message-area {
+		 margin-left: -45px;
+	}
+}
+
+ .page-template-page-mashboard div.wpmudev-chat-box-page.wpmudev-chat-session-open div.wpmudev-chat-module-message-area {
+ 	bottom: 0px !important;
+ }
+ div.wpmudev-chat-box p {
+ 	padding-left: 5px !important;
+ 	padding-right: 5px !important;
+ }
+ .wpmudev-chat-module .wpmudev-chat-row-user img {
+ 	border-bottom-right-radius: 0px;
+ 	border-top-right-radius: 0px;
+ 	margin-right: 5px;
+ 	margin-right: 5px;
+ 	margin-left: -5px;
+ }
+ .wpmudev-chat-module .wpmudev-chat-row-moderator img {
+ 	border-bottom-left-radius: 0px;
+ 	border-top-left-radius: 0px;
+ 	margin-left: 0px;
+ }
+ .wpmudev-chat-message img {
+ 	border-radius: 40px !important;
+ }
+
+ .wpmudev-chat-row-moderator .wpmudev-chat-message:after {
+ 	left: auto;
+ 	right: 15px;
+ }
+ div.wpmudev-chat-box p {
+ 	margin: 5px 5px;
+ }
+ .wpmudev-chat-row {
+ 	border-top: 0px !important;
+ }
+ div.wpmudev-chat-box p {
+ 	margin: 10px !important;
+ }
+ .comment-author img {
+ 	border: 0;
+    border-radius: 50px;
+    max-height: 30px;
+    max-width: 30px;
+ }
+
+div.wpmudev-chat-box div.wpmudev-chat-module-messages-list div.wpmudev-chat-row a.wpmudev-chat-user-avatar {
+    margin-bottom: -4px !important;
+}
+ .wpmudev-chat-message:after {
+ 	content: "";
+ 	display: block;
+ 	position: absolute;
+ 	bottom: -5px;
+ 	left: 15px;
+ 	width: 0;
+ 	border-width: 5px 5px 0;
+ 	border-style: solid;
+ 	border-color: #cccccc transparent;
+ 	display: none;
+ }
+ .wpmudev-chat-row-moderator .wpmudev-chat-message {
+ 	text-align: right;
+ }
+
+
+div.wpmudev-chat-row-moderator a.wpmudev-chat-user-avatar {
+	    margin-right: -5px !important;
+    margin-left: 10px !important;
+}
+
+
+ .comment {
+ 	position: relative;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	min-height: 40px;
+ 	border-width: 0px;
+ 	border-style: solid;
+ 	border-color: #353535 transparent;
+ 	border-top: 0px;
+ 	border-radius: 0px;
+ }
+ .wpmudev-chat-message {
+ 	position: relative;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	margin-top: 5px;
+ 	color: #51666b !important;
+ 	background: #cccccc;
+ 	border-radius: 5px;
+ 	border-width: 0px;
+ 	border-style: solid;
+ 	border-color: #b3e4ef transparent;
+ 	border-top: 0px;
+ }
+
+textarea.wpmudev-chat-send::placeholder{
+	text-align: left;
+	    font-size: .8rem !important;
+    line-height: 40px !important;
+}
+ textarea.wpmudev-chat-send {
+ 	float: left!important;
+ 	border: 1px solid #CCC!important;
+ 	padding: 5px!important;
+ 	color: #000!important;
+ 	width: 95% !important;
+ }
+ .bubble-chat .container {
+ 	margin: 5px;
+ }
+ .wpmudev-chat-module-message-area .wpmudev-chat-send {
+ 	margin-bottom: 0px !important;
+ }
+ #wpmudev-chat-box-page-7662 div.wpmudev-chat-module-message-area textarea.wpmudev-chat-send {
+ 	height: 50px !important;
+ }
+ div.wpmudev-chat-box div.wpmudev-chat-module-messages-list div.wpmudev-chat-row ul.wpmudev-chat-row-footer {
+ 	display: none !important;
+ }
+ .wpmudev-chat-module-message-area .wpmudev-chat-send {
+ 	-webkit-appearance: none;
+ 	margin: 0px !important;
+ 	height: 50px !important;
+
+ 	border-radius: 0px;
+ }
+ .wpmudev-chat-module-message-area .wpmudev-chat-send, .wpmudev-chat-module-message-area .wpmudev-chat-send-button {
+
+ }
+ #wpmudev-chat-box-page-6880 div.wpmudev-chat-module-messages-list {
+ 	width: 100% !important;
+ }
+
+div.wpmudev-chat-box div.wpmudev-chat-module-message-area button.wpmudev-chat-send-button{
+	padding: 6px !important;
+}
+ .wpmudev-chat-box-page {
+ 	margin-top:0px !important;
+ }
+ .chatroom.native .entry-header {
+ 	display: none;
+ }
+ .chatroom.native .entry-content {
+ 	margin-top: 0px !important;
+ }
+ .page-template-page-mashboard .wpmudev-chat-box-page {
+ 	margin-top: 10px !important;
+ }
+ .wpmudev-chat-module-messages-list {
+ 	background-color: inherit !important;
+ }
+ #wpmudev-chat-box-post-8716 div.wpmudev-chat-module-message-area textarea.wpmudev-chat-send {
+ 	height: 50px !important;
+ }
+ .single.bubble-chat .entry-meta {
+ 	display: none !important;
+ }
+ .single.bubble-chat .entry-content {
+ 	margin-top: -5px !important;
+ }
+ .chatroom iframe {
+ 	top: 0px !important;
+ 	padding-top: 50px;
+ }
+
+
+.wpmudev-chat-module-messages-list {
+	background-color: #ffffff !important;
+}
+.wpmudev-chat-row {
+
+}
+#wpmudev-chat-box-post-5253 div.wpmudev-chat-module-messages-list {
+	background: #f1f1f1;
+	background-color: #f1f1f1;
+}
+.wpmudev-chat-message {
+	color: #929292 !important;
+	background: none;
+	border-color: #b3e4ef transparent;
+}
+.wpcf7-submit {
+	background-color: #1bbae1 !important;
+	background: #1e8cbe !important;
+	color: #fff !important;
+}
+.gform_button, .comment-form-comment label, .wpmudev-chat-send-button {
+	background: #6ad2ef;
+	color: #ffffff;
+}
+
+#post-3355 .grimlock--page-content {
+    padding: 0;
+}
+
+div.wpmudev-chat-box .wpmudev-chat-module {
+
+width: calc( 100% - 275px ) !important;
+	width:  100% !important;
+}
+
+
+
+
+
+.wpmudev-chat-module .textarea{border-radius: 0px !important}
+
+
+.page-id-3355 .site-content {
+    padding-bottom: 50px !important;
+}
+
+div.light.dpSocialTimelineLoading {
+    background: url(../images/light/ajax-loader.gif) no-repeat 50% 50%;
+}
+
+
+.page-id-3355.grimlock--navigation-fixed.grimlock--navigation-fixed-left .site-content,
+.page-id-3355.grimlock--navigation-fixed-left.site-content {
+padding: 0 !important;
+}
+
+
+.page-id-3355.grimlock--navigation-fixed.grimlock--navigation-fixed-left .site-content > .region__container {
+padding-top: 60px !important;
+}
+
+body.wpmudev-chat-box-page {
+margin-top: 0px !important;
+}
+
+.page-id-3355 .grimlock--page-header{display: none !important;}
+
+
+
+div.wpmudev-chat-box.wpmudev-chat-session-open div.wpmudev-chat-module-message-area{margin-left: 0px !important;}
+
+.grimlock--page-footer.entry-footer{display: none !important;}
+
+
+div.wpmudev-chat-box div.wpmudev-chat-module-message-area {
+position: fixed !important;
+}
+

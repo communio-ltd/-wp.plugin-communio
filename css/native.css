@@ -1,0 +1,203 @@
+/* have these arent native - todo */
+.site-footer {
+    display: none;
+}
+
+.vertical-navbar .navbar-nav .menu-item > a{
+	word-break: break-word !important;
+}
+
+#grimlock_nav_menu_section_widget-3 .grimlock-section__title{margin-bottom: -20px !important;}
+
+ .native #footer{display:none;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767.98px) {
+	.key-feature.knode{background-position: center;}
+	.widget_grimlock_nav_menu_section .menu .menu-item {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	} 
+	
+	#grimlock_section_widget-8 .region__col--2 {
+	margin-top: 60px;
+	}
+	
+	#grimlock_section_widget-11 .grimlock-section__text{margin-bottom: 60px !important;}
+	
+	#grimlock_nav_menu_section_widget-3 .grimlock-section__title{margin-bottom: -60px !important;}
+	
+	#grimlock_nav_menu_section_widget-3 .grimlock-region__inner{padding-top: 20px !important;}
+	
+	.region--12-cols-left .region__col {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	
+}
+
+.grimlock--page-footer{display: none !important;}
+
+.widget_display_stats .stats_list-icon {
+background-color: #1a3453 !important;
+}
+
+#widget_recent_bp_docs-2 ul li:before,
+.widget_recent_bp_docs ul li:before {
+font-size: 1.5rem !important;
+opacity: 1 !important;
+background-color: #1a3453 !important;
+}
+
+
+.page-template-template-dashboard #media_image-2{padding: 0 !important;}
+
+
+.native .site-after-content{display: none !important;}
+
+
+
+
+.native .grimlock--page-header{display: none !important;}
+
+.native #navigation,.native .main-navigation,.native #wpadminbar,
+.native #grimlock_section_widget-8 .region__col--1{display:none !important;}
+
+.grimlock-btn-primary {
+margin-bottom: 60px;
+}
+
+.native #content, .native #site-wrapper {
+margin-top: 0px!important;
+padding-top: 0px !important;
+}
+
+
+
+
+/* news */
+.blog.native #custom_header,
+.blog.native .posts-filters{display: none;}
+
+.blog.native #posts {
+margin-top: 45px;
+}
+
+/*events / calendar */
+.native.events-archive #header,
+.native.events-archive #tribe-bar-views{display: none;}
+
+.native.events-archive #content {margin-top: -310px;}
+
+
+
+.widget_revslider{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+
+
+.vertical-navbar #menu-primary.navbar-nav .menu-item{float:left !important}
+
+/*
+.site-main{margin-top: 0px !important;}
+*/
+.sving-aftercontent .section__thumbnail-img{
+max-width: 500px !important;
+	margin-bottom: 25px !important;
+}
+
+body:not(.page-template-template-dashboard) #primary > #main > .widget-area > .widget:not([class*="widget_grimlock_"]),
+#rev-slider-widget-3{background-color: #1a3453 !important; min-width: 100% !important;}
+
+.grimlock_buddypress_miscellaneous_actions_button_background_elements_selector	{background-color: #2b4d70 !important;}
+
+.home-page #after_content{display: none;}
+
+.widget_revslider{padding-left: 0!important; padding-right: 0!important;}
+
+.vertical-navbar .navbar-nav .menu-item > a span{display: block !important;}
+
+
+
+
+.native .grimlock--navigation-fixed.grimlock--navigation-fixed-left .site-content, .native .grimlock--navigation-fixed.grimlock--navigation-fixed-right .site-content {
+padding-top: 45px !important;
+}
+
+
+
+.widget_revslider{
+margin: 0 !important;
+max-width: 100% !important;
+width: 100% !important;
+  background-color: #000 !important;
+  /*background-image: url("https://bsv.org.uk/wp-content/uploads/2020/08/test-bg-scaled-1.jpg");*/
+  background-image: url("https://bsv.org.uk/wp-content/uploads/2020/10/bsvorg-bitcoinsv-scaled.jpg");
+  background-size:cover !important;
+}
+
+#welcome_wrapper{
+padding-left: 3% !important;
+padding-right: 3% !important;
+max-width: 1400px !important;
+}
+
+.widget_grimlock_nav_menu_section .menu .menu-item .icon-wrapper .fa{
+/*.grimlock_buddypress_miscellaneous_actions_button_background_elements_selector {*/
+background: #2b4d70 !important;
+  background-color: #2b4d70 !important;
+  opacity:1;
+}
+
+#rev-slider-widget-4,#rev-slider-widget-5{padding-top:0px !important; padding-bottom:0px !important;}
+
+.widget-title .key-feature {
+width: 100%;
+display: block;
+color: #fff;
+font-weight: bold;
+/* text-decoration: underline; */
+font-size: 0px;
+  height:70px;
+margin-bottom: 30px !important;
+margin-bottom: 30;
+/* line-height: 52px; */
+  background-image: url("https://bsv.org.uk/wp-content/uploads/2020/12/knode-text.png");
+   background-repeat:no-repeat;
+  background-size:contain;
+}
+
+
+
+/* dashboard */
+.page-template-template-dashboard .grimlock--page-header{margin-top: -10px;}
+
+
+
+/* bp ---------- */
+#buddypress #item-header{display:none !important;}
+.show_all_bp #buddypress #item-header{display:block !important;}
+
+
+
+
+
+/* weird shit - js or something means that sopme pages like forums and documents say log in when aleady logged in. - todo */
+/*.grimlock-login-navbar_nav_menu{display:none !important;}*/
+
+
+
+#pmpro_levels_table H2.text-center, #pmpro_levels_table .level-short-price{display:none;}
+
+
+/* hide all page heaeders for now */
+body.buddypress.directory.members .grimlock--page-header, body.buddypress.directory.groups .grimlock--page-header, body.buddypress.groups.group-create .grimlock--page-header, body.buddypress.directory.activity .grimlock--page-header,
+.grimlock--page-header{display:none !important;}
+
+
+.vertical-navbar .navbar-nav > .menu-item > .sub-menu .menu-item a:before {
+width: 0px !important;
+}
+
