@@ -5,7 +5,7 @@
  */
 /*
 
-Plugin Name: wp.plugin-communio
+Plugin Name: Communio
 Plugin URI: communio.co
 Description: -
 Version: -
