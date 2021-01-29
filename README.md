@@ -1,1 +1,1 @@
-# -wp.plugin-communio
+# wp.plugin-communio
